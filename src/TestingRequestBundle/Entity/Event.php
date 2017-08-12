@@ -41,14 +41,6 @@ class Event
     private $description;
 
     /**
-     * @var \DateTime
-     *
-     * @ORM\Column(name="date", type="datetime")
-     */
-    private $date;
-
-
-    /**
      * Get id
      *
      * @return integer 
@@ -102,28 +94,5 @@ class Event
     public function getDescription()
     {
         return $this->description;
-    }
-
-    /**
-     * Set date
-     *
-     * @param \DateTime $date
-     * @return Event
-     */
-    public function setDate($date)
-    {
-        $this->date = $date;
-
-        return $this;
-    }
-
-    /**
-     * Get date
-     *
-     * @return \DateTime 
-     */
-    public function getDate()
-    {
-        return $this->date;
     }
 }

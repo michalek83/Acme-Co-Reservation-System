@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="TestingRequest">
+	<table_structure name="book_order">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="customer_id" Type="int(11)" Null="YES" Key="UNI" Extra="" Comment="" />
+		<field Field="confirmationNumber" Type="varchar(255)" Null="NO" Key="UNI" Extra="" Comment="" />
+		<field Field="event_id" Type="int(11)" Null="YES" Key="MUL" Extra="" Comment="" />
+		<key Table="book_order" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="book_order" Non_unique="0" Key_name="UNIQ_FBEB86E1846CE552" Seq_in_index="1" Column_name="confirmationNumber" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="book_order" Non_unique="0" Key_name="UNIQ_FBEB86E19395C3F3" Seq_in_index="1" Column_name="customer_id" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="book_order" Non_unique="1" Key_name="IDX_FBEB86E171F7E88B" Seq_in_index="1" Column_name="event_id" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="book_order" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="1" Create_time="2017-08-12 08:06:17" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="book_order">
+	</table_data>
+	<table_structure name="book_order_ticket">
+		<field Field="book_order_id" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="ticket_id" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<key Table="book_order_ticket" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="book_order_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="book_order_ticket" Non_unique="0" Key_name="PRIMARY" Seq_in_index="2" Column_name="ticket_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="book_order_ticket" Non_unique="1" Key_name="IDX_DCE772E94607B61" Seq_in_index="1" Column_name="book_order_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="book_order_ticket" Non_unique="1" Key_name="IDX_DCE772E700047D2" Seq_in_index="1" Column_name="ticket_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="book_order_ticket" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Create_time="2017-08-12 08:06:15" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="book_order_ticket">
+	</table_data>
+	<table_structure name="customer">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="email" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="telephone" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="gender" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="customer" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="customer" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2017-08-12 07:48:59" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="customer">
+	</table_data>
+	<table_structure name="event">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="description" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="date" Type="datetime" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="event" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="event" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2017-08-12 07:48:59" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="event">
+	</table_data>
+	<table_structure name="ticket">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="type" Type="varchar(255)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="ticket" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="ticket" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2017-08-12 07:49:00" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="ticket">
+	</table_data>
+	<table_structure name="ticket_book_order">
+		<field Field="ticket_id" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="book_order_id" Type="int(11)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<key Table="ticket_book_order" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="ticket_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="ticket_book_order" Non_unique="0" Key_name="PRIMARY" Seq_in_index="2" Column_name="book_order_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="ticket_book_order" Non_unique="1" Key_name="IDX_6D7814B5700047D2" Seq_in_index="1" Column_name="ticket_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<key Table="ticket_book_order" Non_unique="1" Key_name="IDX_6D7814B594607B61" Seq_in_index="1" Column_name="book_order_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="ticket_book_order" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Create_time="2017-08-12 08:03:35" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="ticket_book_order">
+	</table_data>
+</database>
+</mysqldump>

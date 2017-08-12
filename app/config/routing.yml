@@ -1,3 +1,4 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+testing_request:
+    resource: "@TestingRequestBundle/Controller/"
+    type:     annotation
+    prefix:   /
