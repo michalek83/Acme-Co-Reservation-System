@@ -13,6 +13,11 @@ use Doctrine\ORM\Mapping as ORM;
 class Ticket
 {
     /**
+     * @ORM\ManyToMany(targetEntity="BookOrder", mappedBy="tickets")
+     */
+    private $bookOrders;
+
+    /**
      * @var int
      *
      * @ORM\Column(name="id", type="integer")

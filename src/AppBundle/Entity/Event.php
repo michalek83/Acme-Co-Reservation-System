@@ -13,6 +13,11 @@ use Doctrine\ORM\Mapping as ORM;
 class Event
 {
     /**
+     * @ORM\ManyToMany(targetEntity="BookOrder", mappedBy="event")
+     */
+    private $bookOrders;
+
+    /**
      * @var int
      *
      * @ORM\Column(name="id", type="integer")

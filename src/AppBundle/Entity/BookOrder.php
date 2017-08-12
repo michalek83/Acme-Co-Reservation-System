@@ -13,6 +13,21 @@ use Doctrine\ORM\Mapping as ORM;
 class BookOrder
 {
     /**
+     * @ORM\OneToOne(targetEntity="Customer", inversedBy="bookOrder")
+     */
+    private $customer;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="Ticket", inversedBy="bookOrders")
+     */
+    private $tickets;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Event", inversedBy="bookOrders")
+     */
+    private $event;
+
+    /**
      * @var int
      *
      * @ORM\Column(name="id", type="integer")
