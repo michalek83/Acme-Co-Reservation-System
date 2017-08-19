@@ -18,9 +18,9 @@ class BookOrder
     private $customer;
 
     /**
-     * @ORM\ManyToMany(targetEntity="Ticket", inversedBy="bookOrders")
+     * @ORM\OneToMany(targetEntity="Ticket", mappedBy="bookOrder")
      */
-    private $tickets;
+    private $ticket;
 
     /**
      * @ORM\ManyToOne(targetEntity="Event", inversedBy="bookOrders")
@@ -42,6 +42,13 @@ class BookOrder
      * @ORM\Column(name="confirmationNumber", type="string", length=255, unique=true)
      */
     private $confirmationNumber;
+
+    /**
+     * @var bool
+     *
+     * @ORM\Column(name="confirmed", type="boolean")
+     */
+    private $confirmed;
 
 
     /**
@@ -75,5 +82,28 @@ class BookOrder
     public function getConfirmationNumber()
     {
         return $this->confirmationNumber;
+    }
+
+    /**
+     * Set confirmed
+     *
+     * @param boolean $confirmed
+     * @return BookOrder
+     */
+    public function setConfirmed($confirmed)
+    {
+        $this->confirmed = $confirmed;
+
+        return $this;
+    }
+
+    /**
+     * Get confirmed
+     *
+     * @return boolean 
+     */
+    public function getConfirmed()
+    {
+        return $this->confirmed;
     }
 }

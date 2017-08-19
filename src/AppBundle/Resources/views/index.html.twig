@@ -1,9 +1,7 @@
 {% block title %}Book new tickets:{% endblock %}
 
-{% block top %}<h1>Bokking form</h1>{% endblock %}
+{% block top %}<h1>Booking form</h1>{% endblock %}
 
-{% block content %}
-    {{ form_start(form) }}
-    {{ form_widget(form) }}
-    {{ form_end(form) }}
-{% endblock %}
+{{ form_start(form) }}
+{{ form_widget(form) }}
+{{ form_end(form) }}

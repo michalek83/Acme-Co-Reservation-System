@@ -156,27 +156,4 @@ class Customer
     {
         return $this->gender;
     }
-
-    /**
-     * Set bookOrder
-     *
-     * @param \AppBundle\Entity\BookOrder $bookOrder
-     * @return Customer
-     */
-    public function setBookOrder(\AppBundle\Entity\BookOrder $bookOrder = null)
-    {
-        $this->bookOrder = $bookOrder;
-
-        return $this;
-    }
-
-    /**
-     * Get bookOrder
-     *
-     * @return \AppBundle\Entity\BookOrder 
-     */
-    public function getBookOrder()
-    {
-        return $this->bookOrder;
-    }
 }
