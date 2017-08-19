@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Event
 {
     /**
-     * @ORM\OneToMany(targetEntity="BookOrder", mappedBy="event")
+     * @ORM\OneToMany(targetEntity="BookOrder", cascade="persist", mappedBy="event")
      */
     private $bookOrders;
 

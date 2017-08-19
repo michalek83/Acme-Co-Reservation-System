@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Ticket
 {
     /**
-     * @ORM\ManyToOne(targetEntity="BookOrder", inversedBy="ticket")
+     * @ORM\OneToOne(targetEntity="BookOrder", cascade="persist", mappedBy="ticket")
      */
     private $bookOrder;
 

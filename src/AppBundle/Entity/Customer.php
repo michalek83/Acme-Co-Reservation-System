@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Customer
 {
     /**
-     * @ORM\OneToOne(targetEntity="BookOrder", mappedBy="customer")
+     * @ORM\OneToOne(targetEntity="BookOrder", cascade="persist", mappedBy="customer")
      */
     private $bookOrder;
 

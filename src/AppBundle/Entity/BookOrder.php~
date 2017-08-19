@@ -26,7 +26,7 @@ class BookOrder
      * @ORM\ManyToOne(targetEntity="Event", inversedBy="bookOrders")
      */
     private $event;
-
+    
     /**
      * @var int
      *
@@ -42,14 +42,68 @@ class BookOrder
      * @ORM\Column(name="confirmationNumber", type="string", length=255, unique=true)
      */
     private $confirmationNumber;
-    
+
     /**
-     * Constructor
+     * @var bool
+     *
+     * @ORM\Column(name="confirmed", type="boolean")
      */
-    public function __construct()
+    private $confirmed;
+
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
     {
-        $this->tickets = new \Doctrine\Common\Collections\ArrayCollection();
+        return $this->id;
     }
 
+    /**
+     * Set confirmationNumber
+     *
+     * @param string $confirmationNumber
+     * @return BookOrder
+     */
+    public function setConfirmationNumber($confirmationNumber)
+    {
+        $this->confirmationNumber = $confirmationNumber;
 
+        return $this;
+    }
+
+    /**
+     * Get confirmationNumber
+     *
+     * @return string 
+     */
+    public function getConfirmationNumber()
+    {
+        return $this->confirmationNumber;
+    }
+
+    /**
+     * Set confirmed
+     *
+     * @param boolean $confirmed
+     * @return BookOrder
+     */
+    public function setConfirmed($confirmed)
+    {
+        $this->confirmed = $confirmed;
+
+        return $this;
+    }
+
+    /**
+     * Get confirmed
+     *
+     * @return boolean 
+     */
+    public function getConfirmed()
+    {
+        return $this->confirmed;
+    }
 }
