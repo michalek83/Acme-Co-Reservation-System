@@ -1,0 +1,10 @@
+<h2>Customer data:</h2><br>
+Name: {{ bookOrder.customer.name }}<br>
+Email: {{ bookOrder.customer.email }}<br>
+
+{% if bookOrder.customer.telephone %}
+    Phone number: {{ bookOrder.customer.telephone }}<br>
+{% endif %}
+{% if bookOrder.customer.gender %}
+    Gender: {{ bookOrder.customer.gender }}<br>
+{% endif %}

@@ -5,6 +5,7 @@ namespace AppBundle\Controller;
 use AppBundle\AppBundle;
 use AppBundle\Entity\BookOrder;
 use AppBundle\Entity\Customer;
+use AppBundle\Entity\Ticket;
 use AppBundle\Form\BookOrderType;
 use AppBundle\Form\CustomerType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -26,12 +27,11 @@ class DefaultController extends Controller
         if ($form->isSubmitted() && $form->isValid()) {
             $em = $this->getDoctrine()->getManager();
             $em->persist($bookOrder);
-            var_dump($bookOrder);
             $em->flush();
 
             $url = $this->generateUrl('confirm', ['id' => $bookOrder->getId()]);
 
-//            return $this->redirect($url);
+            return $this->redirect($url);
         }
         return $this->render('AppBundle::index.html.twig', array('form' => $form->createView()));
     }
@@ -47,27 +47,17 @@ class DefaultController extends Controller
         $customerRepository = $this->getDoctrine()->getRepository('AppBundle:Customer');
 
         $bookOrder = $bookOrderRepository->find($id);
-
-        $confirmationNumber = $bookOrder->getConfirmationNumber();
         $customerId = $bookOrder->getCustomer()->getId();
         $eventId = $bookOrder->getEvent()->getId();
-//        $ticketId = $bookOrder->getTicket()->getId();
+        $ticketId = $bookOrder->getTicket()->getId();
 
         $event = $eventRepository->find($eventId);
-        $eventName = $event->getName();
-        $eventDesciption = $event->getDescription();
-
         $customer = $customerRepository->find($customerId);
-        $customerName = $customer->getName();
-        $customerEmail = $customer->getEmail();
-        $customerPhone = $customer->getTelephone();
-        $customerGender = $customer->getGender();
+        $ticket = $ticketRepository->find($ticketId);
 
-//        $ticket = $ticketRepository->find($ticketId);
-
-        var_dump($bookOrder->getTicket());
-
-        return $this->render('AppBundle::confirmation.html.twig');
+        return $this->render('AppBundle::confirmation.html.twig', array(
+            'bookOrder' => $bookOrder
+        ));
 
     }
 }

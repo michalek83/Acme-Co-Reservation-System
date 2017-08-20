@@ -29,13 +29,6 @@ class Ticket
     /**
      * @var int
      *
-     * @ORM\Column(name="child", type="integer")
-     */
-    private $child;
-
-    /**
-     * @var int
-     *
      * @ORM\Column(name="adult", type="integer")
      */
     private $adult;
@@ -43,9 +36,17 @@ class Ticket
     /**
      * @var int
      *
+     * @ORM\Column(name="child", type="integer")
+     */
+    private $child;
+
+    /**
+     * @var int
+     *
      * @ORM\Column(name="senior", type="integer")
      */
     private $senior;
+
 
 
     /**
@@ -56,29 +57,6 @@ class Ticket
     public function getId()
     {
         return $this->id;
-    }
-
-    /**
-     * Set child
-     *
-     * @param integer $child
-     * @return Ticket
-     */
-    public function setChild($child)
-    {
-        $this->child = $child;
-
-        return $this;
-    }
-
-    /**
-     * Get child
-     *
-     * @return integer 
-     */
-    public function getChild()
-    {
-        return $this->child;
     }
 
     /**
@@ -102,6 +80,29 @@ class Ticket
     public function getAdult()
     {
         return $this->adult;
+    }
+
+    /**
+     * Set child
+     *
+     * @param integer $child
+     * @return Ticket
+     */
+    public function setChild($child)
+    {
+        $this->child = $child;
+
+        return $this;
+    }
+
+    /**
+     * Get child
+     *
+     * @return integer 
+     */
+    public function getChild()
+    {
+        return $this->child;
     }
 
     /**

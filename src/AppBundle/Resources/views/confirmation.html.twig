@@ -1,4 +1,11 @@
+{% extends "AppBundle::base.html.twig" %}
+
 {% block title %}Confirmation{% endblock %}
 
 {% block top %}<h1>Boking confirmation</h1>{% endblock %}
 
+{% block content %}
+    {% embed "AppBundle::customer.html.twig" %}{% endembed %}
+    {% embed "AppBundle::event.html.twig" %}{% endembed %}
+    {% embed "AppBundle::ticket.html.twig" %}{% endembed %}
+{% endblock %}

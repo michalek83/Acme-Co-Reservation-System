@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Ticket
 {
     /**
-     * @ORM\ManyToOne(targetEntity="BookOrder", inversedBy="tickets")
+     * @ORM\OneToOne(targetEntity="BookOrder", cascade="persist", mappedBy="ticket")
      */
     private $bookOrder;
 
@@ -29,16 +29,16 @@ class Ticket
     /**
      * @var int
      *
-     * @ORM\Column(name="adult", type="integer")
+     * @ORM\Column(name="child", type="integer")
      */
-    private $adult;
+    private $child;
 
     /**
      * @var int
      *
-     * @ORM\Column(name="child", type="integer")
+     * @ORM\Column(name="adult", type="integer")
      */
-    private $child;
+    private $adult;
 
     /**
      * @var int
@@ -56,29 +56,6 @@ class Ticket
     public function getId()
     {
         return $this->id;
-    }
-
-    /**
-     * Set adult
-     *
-     * @param integer $adult
-     * @return Ticket
-     */
-    public function setAdult($adult)
-    {
-        $this->adult = $adult;
-
-        return $this;
-    }
-
-    /**
-     * Get adult
-     *
-     * @return integer 
-     */
-    public function getAdult()
-    {
-        return $this->adult;
     }
 
     /**
@@ -102,6 +79,29 @@ class Ticket
     public function getChild()
     {
         return $this->child;
+    }
+
+    /**
+     * Set adult
+     *
+     * @param integer $adult
+     * @return Ticket
+     */
+    public function setAdult($adult)
+    {
+        $this->adult = $adult;
+
+        return $this;
+    }
+
+    /**
+     * Get adult
+     *
+     * @return integer 
+     */
+    public function getAdult()
+    {
+        return $this->adult;
     }
 
     /**

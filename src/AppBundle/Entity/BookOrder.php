@@ -159,7 +159,7 @@ class BookOrder
      */
     public function setTicket(\AppBundle\Entity\Ticket $ticket)
     {
-        $this->ticket[] = $ticket;
+        $this->ticket = $ticket;
 
         return $this;
     }

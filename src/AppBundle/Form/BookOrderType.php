@@ -2,8 +2,11 @@
 
 namespace AppBundle\Form;
 
+use AppBundle\AppBundle;
+use AppBundle\Entity\Ticket;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\FormType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
@@ -21,7 +24,7 @@ class BookOrderType extends AbstractType
                 'class' => 'AppBundle:Event',
                 'choice_label' => 'name'
             ))
-            ->add('ticket', TicketType::class, array())
+            ->add('ticket', TicketType::class)
             ->add('add', SubmitType::class)
             ->GetForm()
         ;

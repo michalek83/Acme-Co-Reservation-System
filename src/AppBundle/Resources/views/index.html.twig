@@ -1,7 +1,11 @@
-{% block title %}Book new tickets:{% endblock %}
+{% extends "AppBundle::base.html.twig" %}
+
+{% block title %}Book new tickets{% endblock %}
 
 {% block top %}<h1>Booking form</h1>{% endblock %}
 
-{{ form_start(form) }}
-{{ form_widget(form) }}
-{{ form_end(form) }}
+{% block content %}
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+{% endblock %}
