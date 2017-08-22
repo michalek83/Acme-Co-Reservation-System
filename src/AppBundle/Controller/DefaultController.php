@@ -53,7 +53,6 @@ class DefaultController extends Controller
             $em->flush();
 
             $url = $this->generateUrl('confirm', ['id' => $bookOrder->getId()]);
-
             return $this->redirect($url);
         }
         return $this->render('AppBundle::index.html.twig', array('form' => $form->createView()));
@@ -73,9 +72,11 @@ class DefaultController extends Controller
 
         if ($bookConfirm->isSubmitted()) {
             $em = $this->getDoctrine()->getManager();
-            $em->persist($bookOrder);
             $bookOrder->setConfirmed(true);
+            $em->persist($bookOrder);
             $em->flush();
+
+            return $this->redirectToRoute( 'main' );
         }
         return $this->render('AppBundle::confirmation.html.twig', array(
             'bookOrder' => $bookOrder,
