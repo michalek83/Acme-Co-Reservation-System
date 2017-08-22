@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Ticket
@@ -28,6 +29,10 @@ class Ticket
 
     /**
      * @var int
+     * @Assert\Range(
+     *      max = 4,
+     *      maxMessage = "You can buy maximum {{limit}} tickets for children.",
+     * )
      *
      * @ORM\Column(name="child", type="integer")
      */
@@ -35,6 +40,10 @@ class Ticket
 
     /**
      * @var int
+     * @Assert\Range(
+     *      max = 4,
+     *      maxMessage = "You can buy maximum {{limit}} tickets for adults.",
+     * )
      *
      * @ORM\Column(name="adult", type="integer")
      */
@@ -42,6 +51,10 @@ class Ticket
 
     /**
      * @var int
+     * @Assert\Range(
+     *      max = 4,
+     *      maxMessage = "You can buy maximum {{limit}} tickets for seniors.",
+     * )
      *
      * @ORM\Column(name="senior", type="integer")
      */
@@ -125,5 +138,28 @@ class Ticket
     public function getSenior()
     {
         return $this->senior;
+    }
+
+    /**
+     * Set bookOrder
+     *
+     * @param \AppBundle\Entity\BookOrder $bookOrder
+     * @return Ticket
+     */
+    public function setBookOrder(\AppBundle\Entity\BookOrder $bookOrder = null)
+    {
+        $this->bookOrder = $bookOrder;
+
+        return $this;
+    }
+
+    /**
+     * Get bookOrder
+     *
+     * @return \AppBundle\Entity\BookOrder 
+     */
+    public function getBookOrder()
+    {
+        return $this->bookOrder;
     }
 }

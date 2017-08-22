@@ -2,7 +2,7 @@
 
 {% block title %}Confirmation{% endblock %}
 
-{% block top %}<h1>Boking confirmation</h1>{% endblock %}
+{% block top %}<h1>Confirmation of booking no {{ bookOrder.confirmationNumber }}</h1>{% endblock %}
 
 {% block content %}
     {% embed "AppBundle::customer.html.twig" %}{% endembed %}

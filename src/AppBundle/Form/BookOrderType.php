@@ -36,7 +36,8 @@ class BookOrderType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'AppBundle\Entity\BookOrder'
+            'data_class' => 'AppBundle\Entity\BookOrder',
+            'cascade_validation' => true
         ));
     }
 

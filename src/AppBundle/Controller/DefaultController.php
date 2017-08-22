@@ -25,13 +25,16 @@ class DefaultController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+
+            var_dump($form->getConfig()->getData());
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($bookOrder);
             $em->flush();
 
             $url = $this->generateUrl('confirm', ['id' => $bookOrder->getId()]);
 
-            return $this->redirect($url);
+//            return $this->redirect($url);
         }
         return $this->render('AppBundle::index.html.twig', array('form' => $form->createView()));
     }
@@ -42,18 +45,8 @@ class DefaultController extends Controller
     public function confirmationAction($id, Request $request)
     {
         $bookOrderRepository = $this->getDoctrine()->getRepository('AppBundle:BookOrder');
-        $eventRepository = $this->getDoctrine()->getRepository('AppBundle:Event');
-        $ticketRepository = $this->getDoctrine()->getRepository('AppBundle:Ticket');
-        $customerRepository = $this->getDoctrine()->getRepository('AppBundle:Customer');
 
         $bookOrder = $bookOrderRepository->find($id);
-        $customerId = $bookOrder->getCustomer()->getId();
-        $eventId = $bookOrder->getEvent()->getId();
-        $ticketId = $bookOrder->getTicket()->getId();
-
-        $event = $eventRepository->find($eventId);
-        $customer = $customerRepository->find($customerId);
-        $ticket = $ticketRepository->find($ticketId);
 
         return $this->render('AppBundle::confirmation.html.twig', array(
             'bookOrder' => $bookOrder

@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Ticket
@@ -28,6 +29,12 @@ class Ticket
 
     /**
      * @var int
+     * @Assert\Range(
+     *     min = 0,
+     *     max = 4,
+     *     minMessage = "Value must be bigger than 0.",
+     *     maxMessage = "You can book maximum {{ limit }} tickets for children.",
+     * )
      *
      * @ORM\Column(name="child", type="integer")
      */
@@ -35,6 +42,12 @@ class Ticket
 
     /**
      * @var int
+     * @Assert\Range(
+     *     min = 0,
+     *     max = 4,
+     *     minMessage = "Value must be bigger than 0.",
+     *     maxMessage = "You can book maximum {{ limit }} tickets for adults.",
+     * )
      *
      * @ORM\Column(name="adult", type="integer")
      */
@@ -42,11 +55,16 @@ class Ticket
 
     /**
      * @var int
+     * @Assert\Range(
+     *     min = 0,
+     *     max = 4,
+     *     minMessage = "Value must be bigger than 0.",
+     *     maxMessage = "You can book maximum {{ limit }} tickets for seniors.",
+     * )
      *
      * @ORM\Column(name="senior", type="integer")
      */
     private $senior;
-
 
     /**
      * Get id
