@@ -13,7 +13,7 @@
 		<key Table="book_order" Non_unique="0" Key_name="UNIQ_FBEB86E19395C3F3" Seq_in_index="1" Column_name="customer_id" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
 		<key Table="book_order" Non_unique="0" Key_name="UNIQ_FBEB86E1700047D2" Seq_in_index="1" Column_name="ticket_id" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
 		<key Table="book_order" Non_unique="1" Key_name="IDX_FBEB86E171F7E88B" Seq_in_index="1" Column_name="event_id" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="book_order" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="65536" Data_free="0" Auto_increment="1" Create_time="2017-08-19 19:13:12" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+		<options Name="book_order" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="65536" Data_free="0" Auto_increment="1" Create_time="2017-08-22 19:36:55" Update_time="2017-08-22 19:36:48" Collation="utf8_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="book_order">
 	</table_data>
@@ -24,7 +24,7 @@
 		<field Field="telephone" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
 		<field Field="gender" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
 		<key Table="customer" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="customer" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2017-08-19 19:00:36" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+		<options Name="customer" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2017-08-22 19:37:07" Update_time="2017-08-22 19:37:02" Collation="utf8_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="customer">
 	</table_data>
@@ -53,7 +53,7 @@
 		<field Field="child" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
 		<field Field="senior" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
 		<key Table="ticket" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
-		<options Name="ticket" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2017-08-19 19:13:13" Collation="utf8_unicode_ci" Create_options="" Comment="" />
+		<options Name="ticket" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2017-08-22 19:37:20" Update_time="2017-08-22 19:37:15" Collation="utf8_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="ticket">
 	</table_data>

@@ -7,5 +7,17 @@
 {% block content %}
     {{ form_start(form) }}
     {{ form_widget(form) }}
-    {{ form_end(form) }}
+    {{ form_end(form) }}<br>
+
+    {% if amountError is defined or keeper is defined %}
+        <p style="color:red; font-size:130%"><b>Book errors:</b></p>
+    {% endif %}
+
+    {% if amountError is defined %}
+        You can order max 6 tickets.
+    {% endif %}
+
+    {% if keeper is defined %}
+        Not enought amount of keepers (min 1 per 4 childrens).
+    {% endif %}
 {% endblock %}

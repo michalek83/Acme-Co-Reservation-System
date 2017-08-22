@@ -2,12 +2,13 @@
 
 namespace AppBundle\Form;
 
+use AppBundle\AppBundle;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\IntegerType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class TicketType extends AbstractType
+class BookOrderConfirmType extends AbstractType
 {
     /**
      * {@inheritdoc}
@@ -15,9 +16,9 @@ class TicketType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('adult', IntegerType::class)
-            ->add('child', IntegerType::class)
-            ->add('senior', IntegerType::class);
+            ->add('Confirm', SubmitType::class)
+            ->GetForm()
+        ;
     }
     
     /**
@@ -26,7 +27,7 @@ class TicketType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'AppBundle\Entity\Ticket'
+            'data_class' => 'AppBundle\Entity\BookOrder'
         ));
     }
 
@@ -35,7 +36,7 @@ class TicketType extends AbstractType
      */
     public function getBlockPrefix()
     {
-        return 'appbundle_ticket';
+        return 'appbundle_bookorder';
     }
 
 

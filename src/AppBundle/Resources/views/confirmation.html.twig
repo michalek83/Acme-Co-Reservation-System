@@ -5,7 +5,17 @@
 {% block top %}<h1>Confirmation of booking no {{ bookOrder.confirmationNumber }}</h1>{% endblock %}
 
 {% block content %}
+    {% if bookOrder.confirmed == false %}
+        Not confirmed<br>
+        {{ form_start(bookConfirm) }}
+        {{ form_widget(bookConfirm) }}
+        {{ form_end(bookConfirm) }}
+    {% else %}
+        Confirmed
+    {% endif %}
+
     {% embed "AppBundle::customer.html.twig" %}{% endembed %}
     {% embed "AppBundle::event.html.twig" %}{% endembed %}
     {% embed "AppBundle::ticket.html.twig" %}{% endembed %}
+
 {% endblock %}

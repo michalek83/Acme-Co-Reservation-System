@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../TestingRequest (kopia)/.idea/TestingRequest.iml" filepath="$PROJECT_DIR$/../TestingRequest (kopia)/.idea/TestingRequest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_validation/.idea/project_validation.iml" filepath="$PROJECT_DIR$/../project_validation/.idea/project_validation.iml" />
+      <module fileurl="file://$USER_HOME$/PhpstormProjects/untitled/.idea/untitled.iml" filepath="$USER_HOME$/PhpstormProjects/untitled/.idea/untitled.iml" />
       <module fileurl="file://$USER_HOME$/PhpstormProjects/untitled1/.idea/untitled1.iml" filepath="$USER_HOME$/PhpstormProjects/untitled1/.idea/untitled1.iml" />
     </modules>
   </component>

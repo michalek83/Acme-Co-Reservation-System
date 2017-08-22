@@ -30,8 +30,10 @@ class Ticket
     /**
      * @var int
      * @Assert\Range(
-     *      max = 4,
-     *      maxMessage = "You can buy maximum {{limit}} tickets for children.",
+     *     min = 0,
+     *     max = 4,
+     *     minMessage = "Value must be bigger than 0.",
+     *     maxMessage = "You can book maximum {{ limit }} tickets for children.",
      * )
      *
      * @ORM\Column(name="child", type="integer")
@@ -41,8 +43,10 @@ class Ticket
     /**
      * @var int
      * @Assert\Range(
-     *      max = 4,
-     *      maxMessage = "You can buy maximum {{limit}} tickets for adults.",
+     *     min = 0,
+     *     max = 4,
+     *     minMessage = "Value must be bigger than 0.",
+     *     maxMessage = "You can book maximum {{ limit }} tickets for adults.",
      * )
      *
      * @ORM\Column(name="adult", type="integer")
@@ -52,13 +56,26 @@ class Ticket
     /**
      * @var int
      * @Assert\Range(
-     *      max = 4,
-     *      maxMessage = "You can buy maximum {{limit}} tickets for seniors.",
+     *     min = 0,
+     *     max = 4,
+     *     minMessage = "Value must be bigger than 0.",
+     *     maxMessage = "You can book maximum {{ limit }} tickets for seniors.",
      * )
      *
      * @ORM\Column(name="senior", type="integer")
      */
     private $senior;
+
+    /**
+     * @var int
+     * @Assert\Range(
+     *     max = 6,
+     *     maxMessage = "You pick too many ticket, max amoun is {{ limit }}",
+     * )
+     *
+     * @ORM\Column(name="sumOfTicket", type="integer")
+     */
+    private $sumOfTicket;
 
 
     /**

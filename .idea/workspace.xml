@@ -2,36 +2,403 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a528df-d035-4022-b7ce-c95754b6a511" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/BookOrder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Customer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Ticket.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Form/BookOrderType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/BookOrderRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/CustomerRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/EventRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/TicketRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Resources/views/User/new_user.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/DefaultControllerTest.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Controller/DefaultController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Entity/BookOrder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Entity/Customer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Entity/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Entity/Ticket.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Form/BookOrderType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Repository/BookOrderRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Repository/CustomerRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Repository/EventRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Repository/TicketRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Resources/config/services.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/Resources/views/Default/index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestingRequestBundle/TestingRequestBundle.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_1/project_controler" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_Exam_3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_Exam_4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_JavaScript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_PHP_Exam_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_PHP_Exam_2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_PHP_MySQL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_PHP_OOP" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_PHP_Podstawy_Programowania" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_Podstawy_PHP" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_TDD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_Zaawansowane_PHP" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/Twitter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/cache/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/logs/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/web/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/web/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/cache/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/logs/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/web/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/web/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/cache/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/logs/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/web/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/web/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/cache/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/logs/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/web/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/web/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/cache/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/logs/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/web/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/web/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/Workspace.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../1/TestingRequest/src/AppBundle/AppBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../1/TestingRequest/src/AppBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../1/TestingRequest/src/AppBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_1/Kontrolery_i_routing/Kontroler_podstawy_użycia/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_1/Kontrolery_i_routing/Podstawy_routingu/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_1/Kontrolery_i_routing/Podstawy_routingu/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_1/Kontrolery_i_routing/Zaawansowaane_użycie/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_1/Wstep_do_Symfony/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_1/Wstep_do_Symfony/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Dołączanie_szablonów/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Dołączanie_szablonów/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Linki_i_assety/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Linki_i_assety/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Składnia_twiga/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Składnia_twiga/Article.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Składnia_twiga/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Składnia_twiga/view_ex_b1.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Tłumaczenia/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Tłumaczenia/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Widoki/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Widoki/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_2/Widoki_i_Twig/Widoki/view_ex_a3.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Doctrine/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Doctrine/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Encje/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Encje/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Model/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Model/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Relacje/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Relacje/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Zaawansowane/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_3/Model_i_Doctrine/Zaawansowane/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_4/Formularze/Podstawy/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_4/Formularze/Podstawy/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_4/Formularze/Zaawansowane/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_1/Dzien_4/Formularze/Zaawansowane/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_1/CRUD/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_1/Walidacja/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_1/Walidacja/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_2/Security/Fosuuserbundle/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_2/Security/Fosuuserbundle/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_2/Security/Nadpisywanie_widoków/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_2/Security/Nadpisywanie_widoków/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_2/Security/Prosta_autoryzacja/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/1_Zadania/Tydzien_2/Dzien_2/Security/Prosta_autoryzacja/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/2_Snippety/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KAT_PHP_W_01_Symfony_2-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/Hasła/Hasła.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/nbproject/private/private.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/nbproject/private/private.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/nbproject/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/nbproject/project.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/schema.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/src/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/src/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/src/connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/src/lib.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/web/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/web/loginForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/web/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/web/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Stare projekty/twitter_Michala/web/registerForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/AppBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Entity/BookOrder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Entity/Customer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Entity/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Entity/Ticket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Form/BookOrderType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Repository/BookOrderRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Repository/CustomerRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Repository/EventRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Repository/TicketRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Resources/views/User/new_user.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/AppBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/AppCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/AppKernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/Resources/views/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/Resources/views/default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/SymfonyRequirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/check.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/config_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/config_prod.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/config_test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/parameters.yml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/routing_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/security.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/console" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/app/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/CodersLabBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/Controller/FirstController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/Resources/views/Default/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/Resources/views/Default/urls.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/Resources/views/Default/view.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/src/CodersLabBundle/Tests/Controller/FirstControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/tests/CodersLabBundle/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/web/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/web/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/web/app_dev.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/web/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_controler/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/AppCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/AppKernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/Resources/views/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/Resources/views/default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/SymfonyRequirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/check.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/config_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/config_prod.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/config_test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/parameters.yml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/routing_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/security.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/console" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/app/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/CodersLabBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Controller/TweetController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Controller/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Entity/Tweet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Entity/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Repository/TweetRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Repository/UserRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/Tweet/create.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/Tweet/new.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/Tweet/show_all.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/Tweet/updateTweet.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/TweetController/create.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/TweetController/new.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/TweetController/show_all.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/User/create.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/User/new.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Resources/views/User/show_all.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Tests/Controller/TweetControllerControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Tests/Controller/TweetControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/src/CodersLabBundle/Tests/Controller/UserControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/tests/CodersLabBundle/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/web/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/web/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/web/app_dev.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/web/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_form/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/AppCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/AppKernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/Resources/views/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/Resources/views/default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/SymfonyRequirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/check.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/config_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/config_prod.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/config_test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/parameters.yml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/routing_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/security.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/console" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/app/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/CodersLabBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Controller/AutorController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Controller/BookController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Entity/Autor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Entity/Book.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Repository/AutorRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Repository/BookRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Repository/UserRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/formNewBook.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/viewAllAutors.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/viewAllBooks.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/viewAutor.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/viewBook.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/viewBooksById.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/viewBooksByRating.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Resources/views/Default/viewBooksByTitle.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Tests/Controller/AutorControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/CodersLabBundle/Tests/Controller/BookControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/cosBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/cosBundle/Controller/PostController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/cosBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/cosBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/cosBundle/Resources/views/Post/wyciag.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/cosBundle/Tests/Controller/PostControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/src/cosBundle/cosBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/tests/CodersLabBundle/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/tests/cosBundle/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/web/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/web/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/web/app_dev.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/web/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_model/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/.idea/project_validation.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/AppCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/AppKernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/Resources/views/autor/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/Resources/views/autor/show.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/Resources/views/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/Resources/views/book/edit.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/Resources/views/book/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/Resources/views/book/new.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/Resources/views/book/show.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/Resources/views/default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/SymfonyRequirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/check.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/config_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/config_prod.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/config_test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/parameters.yml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/routing_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/security.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/console" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/app/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/CodersLabBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Controller/AutorController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Controller/BookController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Entity/Autor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Entity/Book.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Form/BookType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Repository/BookRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Resources/views/Default/new.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Tests/Controller/AutorControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/src/CodersLabBundle/Tests/Controller/BookControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/tests/CodersLabBundle/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/web/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/web/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/web/app_dev.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/web/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_validation/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/AppCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/AppKernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/view_ex_a3.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/view_ex_b1.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/view_ex_b3.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/view_ex_b4.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/view_ex_b5.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/view_ex_c1.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/Resources/views/view_ex_c1a.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/SymfonyRequirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/check.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/config_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/config_prod.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/config_test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/parameters.yml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/routing_dev.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/security.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/console" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/app/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/CodersLabBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Controller/ViewsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Entity/Article.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/translations/messages.pl.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/view_ex_a3.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/view_ex_b1.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/view_ex_b3.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/view_ex_b4.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/view_ex_b5.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/view_ex_c1.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Resources/views/view_ex_c1a.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/src/CodersLabBundle/Tests/Controller/ViewsControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/tests/CodersLabBundle/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/web/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/web/app.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/web/app_dev.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/web/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../project_view/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/Default/base.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/createCustomer.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/createEdge.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/createMaterial.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/createOrder.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/customerMain.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/edgeMain.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/main.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../projekt_koncowy/src/StolarzBundle/Resources/views/materialMain.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../KAT_PHP_W_01_PHP_Podstawy_Programowania" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../KAT_PHP_W_01_Podstawy_PHP" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../KAT_PHP_W_01_Prework_HTML" afterPath="$PROJECT_DIR$/../Stare projekty/KAT_PHP_W_01_Prework_HTML" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/.idea/TestingRequest.iml" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/.idea/TestingRequest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/app/AppKernel.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Entity/BookOrder.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Entity/BookOrder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Entity/Customer.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Entity/Customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Entity/Event.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Entity/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Entity/Ticket.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Entity/Ticket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Form/BookOrderType.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Form/BookOrderType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Repository/BookOrderRepository.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Repository/BookOrderRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Repository/CustomerRepository.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Repository/CustomerRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Repository/EventRepository.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Repository/EventRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Repository/TicketRepository.php" afterPath="$PROJECT_DIR$/../TestingRequest (kopia)/src/TestingRequestBundle/Repository/TicketRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Ticket.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Ticket.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +419,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1857" />
+    <option name="height" value="1092" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages />
@@ -75,7 +443,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestingRequest (kopia)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,33 +469,40 @@
       <option name="presentableId" value="Default" />
       <updated>1502522288387</updated>
       <workItem from="1502531804520" duration="50000" />
+      <workItem from="1503407936411" duration="40000" />
+      <workItem from="1503408086763" duration="702000" />
+      <workItem from="1503408920074" duration="42000" />
+      <workItem from="1503409014201" duration="26000" />
+      <workItem from="1503409041701" duration="50000" />
+      <workItem from="1503409092802" duration="13000" />
+      <workItem from="1503409374382" duration="524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50000" />
+    <option name="totallyTimeSpent" value="1447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Key Promoter" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Key Promoter" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">

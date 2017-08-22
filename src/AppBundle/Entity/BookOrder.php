@@ -4,6 +4,7 @@ namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 
 /**
@@ -11,6 +12,7 @@ use Symfony\Component\HttpFoundation\Request;
  *
  * @ORM\Table(name="book_order")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\BookOrderRepository")
+ * @UniqueEntity("confirmed")
  */
 class BookOrder
 {
@@ -62,17 +64,6 @@ class BookOrder
         $this->confirmed = '0';
     }
 
-//    public function isConfirmationNumberExist(Request $request){
-//        $isConfirmationNumberExist = $this->getDoctrine()->getManager()->getRepository('AppBundle:BookOrder')
-//                                        ->findBy(['confirmationNumber' => $this->confirmationNumber]);
-////        if (count($isConfirmationNumberExist) === 1){
-////            return true;
-////        }else{
-////            return false;
-////        }
-//        return $isConfirmationNumberExist;
-//    }
-
     /**
      * Get id
      *
@@ -82,18 +73,6 @@ class BookOrder
     {
         return $this->id;
     }
-
-//    /**
-//     * Set confirmationNumber
-//     *
-//     * @return BookOrder
-//     */
-//    private function setConfirmationNumber()
-//    {
-//        $this->confirmationNumber = substr(md5(rand()), 0 ,8);
-//
-//        return $this;
-//    }
 
     /**
      * Get confirmationNumber
@@ -105,18 +84,18 @@ class BookOrder
         return $this->confirmationNumber;
     }
 
-//    /**
-//     * Set confirmed
-//     *
-//     * @param boolean $confirmed
-//     * @return BookOrder
-//     */
-//    public function setConfirmed($confirmed)
-//    {
-//        $this->confirmed = $confirmed;
-//
-//        return $this;
-//    }
+    /**
+     * Set confirmed
+     *
+     * @param boolean $confirmed
+     * @return BookOrder
+     */
+    public function setConfirmed($confirmed)
+    {
+        $this->confirmed = $confirmed;
+
+        return $this;
+    }
 
     /**
      * Get confirmed
